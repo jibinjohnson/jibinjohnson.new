@@ -36,7 +36,7 @@
                 <!-- nav -->
                 <nav class="wthree-w3ls">
                     <div  id="logo">
-                        <h1> <a class="navbar-brand px-0 mx-0" href="index.html">Novos Innovators
+                        <h1> <a class="navbar-brand px-0 mx-0 " href="index.html">Novos Innovators
                             </a>
                         </h1>
                     </div>
@@ -451,6 +451,16 @@
 
     </div>
     <!-- //copyright -->
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        
+    </script>
+    
+    
+    
 </body>
 
 </html>
