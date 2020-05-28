@@ -42,7 +42,7 @@ h6 {
 
 p {
     font-size: 1em;
-    color: #777;
+    color: #000;
     line-height: 1.8em;
 }
 
@@ -539,7 +539,7 @@ li>a:only-child:after {
         
     }
  #logo a {
-        position: absolute;
+        position: fixed;
         display: block;
         padding-top: 1rem;
         width: 100%;
@@ -548,7 +548,8 @@ li>a:only-child:after {
         float: left;
     }
     .top_w3pvt_main {
-    position: relative;
+    position: fixed;
+        
    
      z-index: 1000;
 }
@@ -557,8 +558,9 @@ li>a:only-child:after {
     position: fixed;
     left: 0;
     right: 0;
-    padding-top: 1.5rem;
+    padding-top: 5rem;
     width: 100%;
+   
     padding-left: 20px;
     padding-right: 20px;
    
@@ -571,6 +573,7 @@ li>a:only-child:after {
 }
 header.sticky{
     background: #00bce4 ;
+    
     
 }
     
@@ -1015,16 +1018,72 @@ h3.tittle-w3ls.two {
 
 
 /*--/about--*/
-.banner_bottom_left h4 {
-    font-size: 1.5em;
-    color: #3c3c3c;
-    letter-spacing: 1px;
-    position: relative;
-    font-weight: 600;
-    line-height: 1.6em;
-    margin-bottom: 0.3em;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+
+/*--/glance--*/
+.glance 
+{
+    background-image: linear-gradient(rgba(49,0,255,0.8),rgba(132,5,29,0.8));
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
 }
+.glance .container
+{
+    margin: 0 auto;
+    
+}
+.icon-change
+{
+    border: 1px solid #fff;
+    width: 80px;
+    height: 80px;
+    margin: 30px auto;
+    transform: rotate(45deg);
+    background-color: #feac00;
+    
+}
+#counter
+{
+    color: #fff;
+}
+.icon-change .fa
+{
+    font-size: 45px;
+    margin: 16px auto;
+    transform: rotate(-45deg);
+    
+}
+.glance-box p
+{
+    font-size: 25px;
+    margin: -5px;
+    color: #fff;
+}
+ .glance .container .counter
+{
+    font-size: 40px;
+}
+ .glance .container p
+
+{
+    font-size: 15px;
+}
+
+
+
+
+/*--/glance--*/
+/*--highlights--*/
+.tab-itemh
+{
+    color: #000;
+    font-size: 20px;
+}
+
+
+
+
 
 /*--/features--*/
 .features-w3pvt-main {
@@ -1078,7 +1137,7 @@ h3.tittle-w3ls.two {
     position: relative;
     width: 270px;
     height: 150px;
-    background: #feac008c;
+    background: #ffffffe0;
     box-shadow: 0 5px 15px rgba(0,0,0,1);
     border-radius: 4px;
     margin: 7px;
@@ -1110,13 +1169,13 @@ h3.tittle-w3ls.two {
     
 .services .container .box:nth-child(n) .icon
 {
-    box-shadow: 0 0 0 0 #e91e63;
-    background: #e91e63;
+    box-shadow: 0 0 0 0 #feac00;
+    background: #feac00;
     
 }
 .services .container .box:nth-child(n):hover .icon
 {
-    box-shadow: 0 0 0 400px #e91e63;
+    box-shadow: 0 0 0 400px #feac00;
     
    
 }
@@ -1404,6 +1463,7 @@ ul .verticaltab {
 {
    background-color: black; 
 	padding: 3em 0;
+    
 }
 section.comment-w3l h5 a {
 	color:#00bce4;
@@ -1439,6 +1499,10 @@ section.comment-w3l h5 {
     color: white;
     font-weight: 300;
 }
+.vertical-center {
+ display: flex;
+justify-content: center;    
+}
 input#name, input#email, input#name1, textarea#message {
     background-color:transparent;
     border: 1px solid #fff;
@@ -1463,6 +1527,16 @@ section.comment-w3l h4 {
 	text-transform:capitalize;
 }
 /* //join team */
+
+.jointeamnow
+{
+  background-color: cornsilk;
+    color: #000;
+    padding-left: 1rem;
+}
+
+
+
 /*-- /gallery --*/
 
 section#gallery {
@@ -2422,7 +2496,7 @@ li.connect {
     }
 
     .nav_w3pvt {
-        padding: 0 1em;
+        padding: 0 3em;
     }
     .inner-w3pvt-page-info {
         padding-top: 5em;
