@@ -1,9 +1,9 @@
 <?php
- if(isset($_POST['submit'])){
-     $name=$_POST['name'];
-     $email=$_POST['email'];
-     $sub=$_POST['sub'];
-     $msg=$_POST['msg'];
+ if(isset($_GET['submit'])){
+     $name=$_GET['name'];
+     $email=$_GET['email'];
+     $sub=$_GET['sub'];
+     $msg=$_GET['msg'];
 
       
 $to="contact@novosinnovators.com";
@@ -24,14 +24,6 @@ $to="contact@novosinnovators.com";
 
 
 
-
-
-$headers = "From: $email_from \r\n";
-
-$headers = "Reply-To: $visitor_email \r\n";
-
-mail($to,$email_subject,$email_body,$headers);
-header("Location: contact.html");
 
 
 ?>
