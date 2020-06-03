@@ -1018,7 +1018,7 @@ h3.tittle-w3ls.two {
 /*--/glance--*/
 .glance 
 {
-    background-image: linear-gradient(rgba(49,0,255,0.8),rgba(132,5,29,0.8));
+    background-color: #feac00 ;
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -1036,7 +1036,7 @@ h3.tittle-w3ls.two {
     height: 80px;
     margin: 30px auto;
     transform: rotate(45deg);
-    background-color: #feac00;
+    background-color: #00bce4 ;
     
 }
 #counter
@@ -1497,13 +1497,15 @@ ul .vertical-tabh {
 {
     margin: 2rem;
      padding-left: 1rem;
-    text-shadow: 0 0 2px gray ;
+    font-size: 15px;
   
   cursor: pointer;
 }
 .highl li i{
+    font-size: 15px;
+    color: #feac00;
     
-    text-shadow: 0 0 15px #feac00  ;
+    
     
 
     
