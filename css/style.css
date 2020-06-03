@@ -1018,7 +1018,7 @@ h3.tittle-w3ls.two {
 /*--/glance--*/
 .glance 
 {
-    background-color: #feac00 ;
+    
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -1036,7 +1036,7 @@ h3.tittle-w3ls.two {
     height: 80px;
     margin: 30px auto;
     transform: rotate(45deg);
-    background-color: #00bce4 ;
+    background-color: #feac00 ;
     
 }
 #counter
