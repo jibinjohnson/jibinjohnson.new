@@ -1509,6 +1509,17 @@ ul .vertical-tabh {
 
     
 }
+@media(max-width:580px) 
+{
+   .vertical-tabh .tab-itemh {
+       font-size: 16px;}
+}
+
+@media(max-width:400px) 
+{
+   .vertical-tabh .tab-itemh {
+       font-size: 15px;}
+}
 
 
 
