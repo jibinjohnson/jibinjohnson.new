@@ -1458,16 +1458,15 @@ ul .verticaltab {
 .highl
 {
  background-color: lightgray;
-   padding-bottom: 35px;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-right: 30px;
+   padding-bottom: 15px;
+   
+    padding-top: 30px;  
 }
 
 .vertical-tabh {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+   box-sizing: border-box;
     padding-bottom: 5px;
     padding-top: 5px;
      box-shadow: 0px 0px 20px gray;
@@ -2354,6 +2353,9 @@ li.connect {
     .banner-hny-info h3 {
         font-size: 3.5em;
     }
+      h3.tittle-w3ls
+    { font-size: 35px;
+    }
 }
 
 @media(max-width:1080px) {
@@ -2392,6 +2394,12 @@ li.connect {
         margin: 6em auto 0;
         width: 85%;
     }
+    
+     h3.tittle-w3ls
+    { font-size: 30px;
+    }
+    
+    
 
     .featured_grid_right_info h4 {
         font-size: 1em;
@@ -2429,7 +2437,11 @@ li.connect {
         text-align: center;
         margin-top: 0.5em;
     }
-
+          
+     h3.tittle-w3ls
+    { font-size: 27px;
+    }
+    
     .team-gd {
         margin-bottom: 1.5em;
     }
@@ -2473,11 +2485,15 @@ li.connect {
     }
 
     h3.tittle-w3ls,
-    h3.tittle-w3ls.two {
-        font-size: 2em;
+    h3.tittle-w3ls.two,h5.tittle-w3ls {
+      
         letter-spacing: 1px;
     }
-
+ h3.tittle-w3ls
+    { font-size: 25px;
+    }
+    
+    
     p.sub-tittle {
         font-size: 1em;
     }
@@ -2545,10 +2561,16 @@ li.connect {
     }
 
     h3.tittle-w3ls,
-    h3.tittle-w3ls.two {
-        font-size: 1.8em;
+    h3.tittle-w3ls.two,h5.tittle-w3ls {
+       
         letter-spacing: 1px;
     }
+     h3.tittle-w3ls
+    { font-size: 21px;
+    }
+    
+    
+    
 
     .nav_w3pvt {
         padding: 0 3em;
@@ -2574,16 +2596,21 @@ li.connect {
         min-height: 485px;
     }
 
-   
+       h3.tittle-w3ls
+    { font-size: 18px;
+    } 
+  
+
 }
 
 @media(max-width:384px) {
 
-    h3.tittle-w3ls,
-    h3.tittle-w3ls.two {
-        font-size: 1.6em;
+    
+ h3.tittle-w3ls
+    { font-size: 16px;
     }
-
+    
+    
     .banner-hny-info h3 {
         font-size: 1.2em;
     }
@@ -2600,12 +2627,17 @@ li.connect {
         width: 95%;
     }
 }
+@media(max-width:380px)
+{
+     h3.tittle-w3ls
+    { font-size: 15px;
+    } 
+}
 
 @media(max-width:375px) {
 
-    h3.tittle-w3ls,
-    h3.tittle-w3ls.two {
-        font-size: 1.5em;
+    h3.tittle-w3ls
+    { font-size: 13px;
     }
 
     .banner-w3pvt-1,
@@ -2614,6 +2646,7 @@ li.connect {
     .overlay-w3ls {
         min-height: 395px;
     }
+    
 }
 
 @media(max-width:320px) {
