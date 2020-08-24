@@ -2580,6 +2580,9 @@ li.connect {
         letter-spacing: 1px;
     }
     
+      h3.tittle-w3ls
+    { font-size: 21px;
+    }
     
     
     
@@ -2608,7 +2611,11 @@ li.connect {
         min-height: 485px;
     }
 
-   
+   h3.tittle-w3ls
+
+    { font-size: 18px;
+    } 
+  
   
 
 }
@@ -2616,7 +2623,10 @@ li.connect {
 @media(max-width:384px) {
 
     
-
+h3.tittle-w3ls
+    { font-size: 16px;
+    }
+    
     
     
     .banner-hny-info h3 {
@@ -2636,6 +2646,12 @@ li.connect {
     }
 }
 
+@media(max-width:380px)
+{
+     h3.tittle-w3ls
+    { font-size: 15px;
+    } 
+}
 
 @media(max-width:375px) {
 
@@ -2650,6 +2666,9 @@ li.connect {
 }
 
 @media(max-width:320px) {
+ h3.tittle-w3ls
+    { font-size: 13px;
+    }
 
     .banner-w3pvt-1,
     .banner-w3pvt-2,
@@ -2658,7 +2677,11 @@ li.connect {
         min-height: 350px;
     }
 
-  
+   h3.tittle-w3ls,
+    h3.tittle-w3ls.two {
+        font-size: 1.4em;
+    }
+
 
     .banner-hny-info h3 {
         font-size: 1em;
