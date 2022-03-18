@@ -5,6 +5,8 @@ body {
     font-size: 100%;
     background: #fff;
     scroll-behavior: smooth;
+	max-width: 100%;
+    overflow-x: hidden;
 }
 
 body a {
